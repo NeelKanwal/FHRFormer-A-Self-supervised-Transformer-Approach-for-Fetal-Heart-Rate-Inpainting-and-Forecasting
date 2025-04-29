@@ -24,31 +24,16 @@ Use requirement.txt for exact versions.
 1. main.py is the script for training transformer-based autoencoders using different parametric settings. 
 2. myfunction.py has all the helper functions to run the following files. 
 
-The following files can be used to train autoencoders for the reconstruction task. A further description is given inside each file
-3. autoencoder_fulldata.py - simple variational autoencoder - uses full FHR episode for training.
-4. autoencoder.py - simple variational autoencoder - uses the last hour of the FHR episode for training.
-5. convolutional_vae_fulldata.py - Convolutional variational autoencoder uses complete FHR episode.
-6. rnn_autoencoder.py - Recurrent neural network-based autoencoder, uses complete FHR episode.
-
-
-The following models are for risk classification models. The results were not positive based on the chosen architecture/parametric settings. 
-7. transformer_labelled_data_single.py - trains a transformer-based classification model using only the FHR signal as the input. Outputs are outcomes and resuscitation prediction.
-8. transformer_labelled_data_multichannel.py - trains a transformer-based classification model using two inputs, the FHR signal and the acceleration energy envelope. 
-9. transformer_labelled_data_BMV.py - trains a transformer-based classification model using only FHR as input and Bag-mask ventilation as prediction. 
-10. transformer_envelope_labellled_data_MBV.py -  trains a transformer-based classification model using two inputs, the FHR signal and acceleration energy envelope, and Bag-mask ventilation as prediction. 
-11. transformer_architecture_learning_with_synthetic.py -  trains a transformer-based classification model using dummy input.  
-12. TCM_model_lasthour.py - trains a temporal convolutional neural network for classification. 
-
-The following files can be used to run forecasting and painting applications. 
-13. TimeGPT-forecasting.py - demo of using TimeGPT model for baseline.
-14. interpolation_app.py - shows AI-powered interpolation/inpainting, requires path to trained model weights.
-15. forecasting_app.py - performs forecasting using the trained models. 
+The following files can be used to run forecasting and painting applications. Weights of trained models are required. 
+3. TimeGPT-forecasting.py - demo of using TimeGPT model for baseline. API from TimeGPT is required to run forecasting. 
+4. interpolation_app.py - shows AI-powered interpolation/inpainting, requires path to trained model weights.
+5. forecasting_app.py - performs forecasting using the trained models. 
 
 The following files are just for visualiation or simpler processing.
-16. plotting_signals.py - uses preprocessed (.mat) files for plotting.  
-17. plot_new_interpolated_dataset.py - plot the new version of the dataset (.npz) files to show some examples.
-18. inpainting_data_v3.py - example of inpainting points over the preprocessed signal. 
-19. create_interpolation_histogram.py - plots the percentage of interpolation across the data to understand how much data was missing from the original FHRs.
+6. plotting_signals.py - uses preprocessed (.mat) files for plotting.  
+7. plot_new_interpolated_dataset.py - plot the new version of the dataset (.npz) files to show some examples.
+8. inpainting_data_v3.py - example of inpainting points over the preprocessed signal. 
+9. create_interpolation_histogram.py - plots the percentage of interpolation across the data to understand how much data was missing from the original FHRs.
 
 
 
