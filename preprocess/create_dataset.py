@@ -10,9 +10,9 @@ from sklearn.preprocessing import LabelEncoder
 np.seterr(divide='raise', invalid='raise')  # Raise exceptions instead of warnings
 
 
-excel_path = "D:\\Moyo\\matched_details-modified.xlsx"
-data_dir = "D:\\Moyo\\fhr_data\\old_data"
-sav_dir = "D:\\Moyo\\fhr_data\\old_data\\processed"
+excel_path = "D:\\.\\matched_details-modified.xlsx"
+data_dir = "D:\\....\\fhr_data\\old_data"
+sav_dir = "D:\\.....\\fhr_data\\old_data\\processed"
 
 # Create label encoders
 # Load the Excel sheet
