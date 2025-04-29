@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Set the path to the new directory containing the interpolated npz files
-new_data_dir = "/nfs/student/neel/MoYo_processed_data/labelled_data_with_envelope/interp_test/"
+new_data_dir = "/nfs/............/interp_test/"
 
 def load_and_plot_file(file_path):
     # Load the npz file
