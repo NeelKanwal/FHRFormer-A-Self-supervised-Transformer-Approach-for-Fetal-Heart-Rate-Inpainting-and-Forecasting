@@ -98,7 +98,7 @@ def explore_dataset(dataset, index, figsize=(30, 20)):
     print(f"Percentage interpolated: {interp_mask.mean()*100:.2f}%")
 
 # Usage
-val_dir = "/nfs/student/neel/MoYo_processed_data/validation_interpolated_with_envelope/"
+val_dir = "/nfs/.........../validation_interpolated_with_envelope/"
 dataset = FHRDataset_v4_envelope(val_dir)
 
 # Specify the index of the file you want to explore
