@@ -42,6 +42,7 @@ The following files are just for visualization or simpler processing.
 ### Results
 ![image](https://github.com/user-attachments/assets/c474fdda-7e96-453d-940e-8156cd2a7191)
 
+
 #### Inpainting Performance
 <img width="1029" height="810" alt="image" src="https://github.com/user-attachments/assets/02dbb0ea-bf4e-4c48-ad66-c5d964df0f01" />
 
@@ -58,7 +59,13 @@ or using the following links.
 
 ## Citing
 If you use or find this code repository useful, consider citing it as follows:
-```@misc{}}
+```
+@article{engan2025fhrformer,
+  title={FHRFormer: A Self-supervised Transformer Approach for Fetal Heart Rate Inpainting and Forecasting},
+  author={Engan, Kjersti and Kanwal, Neel and Yeconia, Anita and Blacy, Ladislaus and Munyaw, Yuda and Mduma, Estomih and Ersdal, Hege},
+  journal={arXiv preprint arXiv:2509.20852},
+  year={2025}
+}
 
 ```
 
